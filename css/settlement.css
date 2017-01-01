@@ -1,0 +1,235 @@
+﻿.settlment-cart{
+	float: right;
+	margin-top: 25px;
+}
+.settlment-cart img{
+	margin-right: 85px;
+	padding-left: 20px;
+}
+.settlment-nav{
+	float: right;
+	margin-top: 7px;
+}
+.settlment-nav li{
+	float: left;
+	width: 132px;
+	margin-right: 32px;
+}
+.settlment-nav li a{
+	color: #fff;
+	line-height: 25px;
+}
+.settlment-nav li .active{
+	color: #f3e402;
+	font-weight: bold;
+}
+/* 内容五块 */
+.shopping-col{
+	border: 1px solid #ccc;
+	margin-bottom: 20px;
+}
+.shopping-col h3{
+	border-bottom: 1px solid #ccc;
+	height: 31px;
+	line-height: 31px;
+	padding-left: 11px;
+	background: url("../img/shopping-col-bg.jpg") repeat-x;
+}
+/* 收货信息 */
+.shopping-col .info{
+	padding: 12px 20px;
+}
+.info-col{
+	height: 24px;
+	line-height: 24px;
+	margin-top: 12px;
+	color: #444;
+}
+.info-col span{
+	color: #f00;
+	margin-right: 10px;
+}
+.info-col  select,.info-col  input{
+	height: 22px;
+	border: 1px solid #ccc;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.info .confirm{
+	margin-left: 20px;
+	margin-top: 10px;
+	width: 112px;
+	height: 26px;
+	color: #fff;
+	background: #3c89f3;
+	border: 1px solid #3784ed;
+}
+/* 支付方式 */
+.shopping-col .pay{
+	float: left;
+	padding: 12px 20px;
+	width: 74px;
+	line-height: 30px;
+}
+.pay input{
+	height: 30px;
+	display: block;
+	float: left;
+}
+.shopping-col .pay-info{
+	padding: 12px 20px;
+}
+.pay-info p{
+	height: 30px;
+	line-height: 30px;
+}
+.pay-info p span{
+	float: left;
+	margin-right: 10px;
+	display: inline-block;
+	width: 26px;
+	height: 30px;
+	background: url("../img/wechat.png") no-repeat;
+}
+/* 发票信息 */
+.shopping-col .invoice-col{
+	padding: 12px 20px;
+	height: 24px;
+	line-height: 24px;
+}
+.invoice-col .invoice{
+	float: left;
+	margin-top: 1px;
+	margin-right: 5px;
+}
+.invoice-col span{
+	color: #f00;
+	margin-right: 10px;
+}
+.invoice-col  select,.invoice-col  input{
+	height: 22px;
+	border: 1px solid #ccc;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.save{
+	margin-left: 20px;
+	margin-top: 10px;
+	margin-bottom: 25px;
+	width: 64px;
+	height: 22px;
+	color: #fff;
+	background: #3c89f3;
+	border: 1px solid #3784ed;
+}
+.cancel{
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-bottom: 25px;
+	width: 64px;
+	height: 22px;
+	background: #f3f3f3;
+	border: 1px solid #ccc;
+}
+/* 送货清单 */
+.shopping-col h3 a{
+	float: right;
+	font-weight: normal;
+	font-size: 12px;
+	color: #3377ff;
+	margin-right: 32px;
+}
+.shopping-col .ship{
+	padding: 5px 0;
+}
+.ship-title {
+	height: 20px;
+	margin-top: 10px;
+	border-bottom: 1px solid #ccc;
+}
+.ship-title li{
+	float: left;
+	width: 130px;
+}
+.ship-title .title{
+	width: 470px;
+	text-indent: 20px;
+}
+.ship-show{
+	height: 99px;
+	margin-top: 10px;
+	border-bottom: 1px solid #ccc
+}
+.ship-show li{
+	float: left;
+	width: 130px;
+}
+.ship-show .show{
+	width: 470px;
+}
+.ship-show .show img{
+	float: left;
+	margin-left: 58px;
+	margin-right: 40px;
+}
+.ship-show .show p{
+	margin-bottom: 30px;
+}
+.ship-show li span{
+	display: block;
+	margin-bottom: 30px;
+}
+.shopping-col .spe{
+	display: block;
+	padding: 14px 0 35px 20px;
+	color: #3377ff;
+}
+.shopping-col  .sorry{
+	padding-left: 20px;
+	margin-bottom: 10px;
+}
+.shopping-col  .sorry .caveat{
+	display: block;
+	color: #ee0000;
+	text-indent: 25px;
+	margin-bottom: 22px;
+	background: url("../img/caveat.png") left center no-repeat;
+}
+.shopping-col  .sorry img{
+	float: left;
+	margin-right: 10px;
+}
+.shopping-col  .sorry span{
+	display: block;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+.shopping-col  .sorry span i{
+	color: #ee0000;
+	font-style: normal;
+}
+/* 订单结算 */
+.settlement span{
+	display: block;
+	float: right;
+	width: 976px;
+	text-align: right;
+	padding-right: 24px;
+	padding-top: 40px;
+	font-size: 16px;
+}
+.settlement span i{
+	font-style: normal;
+	font-size: 50px;
+	color: #ee0000;
+}
+.settlement button{
+	float: right;
+	margin: 26px 24px 20px 0;
+	width: 165px;
+	height: 33px;
+	background: #e50007;
+	font: 18px/1 '微软雅黑';
+	color: #fff;
+	border: none;
+}

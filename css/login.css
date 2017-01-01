@@ -1,0 +1,79 @@
+﻿/* 头部分没有变化的地方样式依然在comment.css中 */
+/* LOGO部分 */
+.login-container{
+	width: 456px;
+	margin: 0 auto;
+}
+.login-container p{
+	float: left;
+	font: 22px/84px '微软雅黑';
+	color: #fff;
+	padding-left: 10px;
+	margin-left: 20px;
+}
+.login-table{
+	width: 284px;
+	border: 1px solid #e1e1e1;
+	margin: 0 auto 150px;
+	padding: 42px 86px;
+	position: relative;
+}
+.login-table .user{
+	width: 305px;
+	height: 32px;
+	border: 1px solid #cccccc;
+	margin-bottom: 5px;	
+	margin-top: 10px;
+	background: url("../img/login-user.png") right center no-repeat;
+}
+.login-table .pass{
+	width: 305px;
+	height: 32px;
+	border: 1px solid #cccccc;
+	margin-bottom: 5px;	
+	margin-top: 10px;
+	background: url("../img/login-pass.png") right center no-repeat;
+}
+.login-table .auto{
+	position: relative;
+	top: 3px;
+}
+.login-table .self{
+	position: relative;
+	top: 3px;
+}
+.login-table .login{
+	width: 307px;
+	height: 34px;
+	border: 1px solid #d0e4f9;
+	background: url("../img/login-btn-bg.png") left top repeat-x;
+	margin-top: 30px;
+}
+.login-table  span{
+	display: block;
+	margin-top: 35px;
+	margin-bottom: 8px;
+}
+.login-table i{
+	font-style: normal;
+	margin: 0 1px;
+}
+.login-table b{
+	display: inline-block;
+	margin-left: 3px;
+	width: 7px;
+	height: 4px;
+	background: url("../img/login-more.png") no-repeat;
+}
+.login-table a:hover{
+	color: #f00;
+}
+.login-table .register{
+	position: absolute;
+	right: 42px;
+	bottom: -31px;
+	width: 115px;
+	height: 31px;
+	border: none;
+	background: url("../img/login-register.png") no-repeat;
+}

@@ -1,0 +1,49 @@
+﻿/* 重置样式 */
+body,div,dl,dd,dt,ul,ol,li,h1,h2,h3,h4,h5,h6,form,a,p,textarea,fieldset,table,td,img,input{
+	margin: 0;
+	padding: 0;
+}
+
+ul,li{
+	list-style: none;
+}
+
+body{
+	font-size: 12px;
+	color: #666;
+}
+
+a{
+	text-decoration: none;
+	color: #666;
+}
+/* img个人习惯定义为块状元素 */
+img{
+	display: block;
+	border: none;
+}
+
+input,select,textarea{
+	border: none;
+	background: none;
+}
+
+/* 清除浮动 */
+.clearfloat{
+	zoom: 1;
+}
+
+.clearfloat:after{
+	display: block;
+	clear: both;
+	content: "";
+	visibility: hidden;
+	height: 0;
+}
+/* 配合js隐藏显示类 */
+.hide{
+	display: none;
+}
+.show{
+	display: block;
+}

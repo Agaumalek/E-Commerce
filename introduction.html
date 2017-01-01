@@ -1,0 +1,391 @@
+﻿<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>产品介绍页</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/introduction.css">
+</head>
+<body>
+	<!-- 公共页头部分 -->
+	<div class="public-header">
+		<!-- 整体划为三部分，收藏，搜索，导航 -->
+		<!-- 收藏部分 -->
+		<div class="public-header-collect">
+			<div class="public-container">
+				<!-- 收藏左右两个div -->
+				<div class="collect-star">
+					<a href="#">收藏慕课</a>
+				</div>
+				<div class="collect-welc">
+					<p>欢迎来到慕课网！</p>
+					<a href="">[登录]</a>
+					<a href="">[免费注册]</a>
+				</div>
+			</div>
+		</div>
+		<!-- 搜索部分 -->
+		<div class="public-header-search">
+			<div class="public-container">
+				<!-- 搜索分为三个块logo,search，购物车 -->
+				<h1><a class="public-logo" href="#"></a></h1><!-- 此处使用h1包裹logo，方便搜索引擎搜索,logo一般不换，图片在css中引用  -->
+				<div class="public-search">
+					<input type="text" class="search-text" />
+					<input type="button" value="搜 索" class="search-btn" />
+				</div>
+				<div class="shopping-cart">
+					<a href="" class="cart-text">购物车</a>
+					<a href="" class="cart-numb">0</a>
+				</div>
+			</div>
+		</div>
+		<!-- 导航部分 -->
+		<div class="public-header-nav">
+			<div class="header-nav-position public-container">
+				<!-- 导航两大块，全部商品下拉列表，左侧分类 -->
+				<h3>全部商品分类</h3>
+				<!-- 下拉列表 -->
+				<div class="pull-down-list hide">
+					<dl class="pull-item">
+						<dt><a href="">手机</a><a href="">数码</a><a href="" class="pull-item-espe">合约机</a></dt>
+						<dd><a href="">荣耀3X</a><a href="">单反</a><a href="">智能设备</a></dd>
+					</dl>
+					<dl class="pull-item active">
+						<dt><a href="">电脑 </a><a href="">硬件外设</a><a href="" class="pull-item-espe">装机宝</a></dt>
+						<dd><a href="">笔记本</a><a href="">台式机</a><a href="">超极本</a><a href="">平板</a></dd>
+					</dl>
+					<dl class="pull-item">
+						<dt><a href="">大家电</a></dt>
+						<dd><a href="">电视</a><a href="">空调</a><a href="">冰箱</a><a href="">洗衣机</a></dd>
+					</dl>
+					<dl class="pull-item">
+						<dt><a href="">厨房电器</a><a href="">生活电器</a></dt>
+						<dd><a href="">空气净化器</a><a href="">微波炉</a><a href="">取暖设备</a></dd>
+					</dl>
+					<dl class="pull-item">
+						<dt><a href="">食品/饮料/生鲜</a><a href="" class="pull-item-espe">粮油</a></dt>
+						<dd><a href="">进口</a><a href="">方便面</a><a href="">零食</a><a href="">保健品</a></dd>
+					</dl>
+				</div>
+				<!-- 详细菜单栏 -->
+				<div class="show-list hide">
+					<dl class="show-item">
+						<dt>电脑整机</dt>
+						<dd><a href="">笔记本</a><a href="">超极本</a><a href="">上网本</a><a href="">平板电脑</a><a href="">台式机</a></dd>
+					</dl>
+					<dl class="show-item">
+						<dt>装机配件</dt>
+						<dd><a href="">CPU</a><a href="">硬盘</a><a href="">SSD固态硬盘</a><a href="">内存</a><a href="">显示</a><a href="">器智能显示器</a><a href="">主板</a><a href="">显卡</a><a href="">机箱</a><a href="">电源</a><a href="">散热器</a><a href="">刻录机/光驱</a><a href="">声卡</a><a href="">拓展卡</a><a href="">服务器配件</a><a href="">DIY小配件</a><a href="">装机/配件安装</a></dd>
+					</dl>
+					<dl class="show-item">
+						<dt>整机附件</dt>
+						<dd><a href="">电脑包</a><a href="">电脑桌</a><a href="">电池</a><a href="">电源适配器</a><a href="">贴膜</a><a href="">清洁用品</a><a href="">笔记本散热器</a><a href="">USB拓展</a><br /><a href="">平板配件</a><a href="">特色附件</a><a href="">插座网线/电话线</a><a href="">影音器材</a><a href="">电脑线材</a></dd>
+					</dl>
+					<dl class="show-item">
+						<dt>电脑外设</dt>
+						<dd><a href="">鼠标</a><a href="">键盘</a><a href="">游戏外设</a><a href="">移动硬盘</a><a href="">摄像头</a><a href="">高清播放器</a><a href="">外置盒</a><a href="">移动硬盘包</a><br /><a href="">手写板/绘图板</a></dd>
+					</dl>
+					<dl class="show-item">
+						<dt>网络设备</dt>
+						<dd><a href="">路由器</a><a href="">网卡</a><a href="">3G无线上网</a><a href="">交换机</a><a href="">网络存储</a><a href="">布线工具</a><a href="">网络配件</a><a href="">正版软件</a></dd>
+					</dl>
+					<dl class="show-item">
+						<dt>音频设备</dt>
+						<dd><a href="">音响</a><a href="">耳机/耳麦</a><a href="">麦克风</a><a href="">声卡</a><a href="">音频附件</a><a href="">录音笔</a></dd>
+					</dl>
+					<div class="show-more">
+						<a href="">电脑整机频道</a><a href="">硬件/外设频道</a>
+					</div>
+				</div>
+				<!-- 左侧菜单导航 -->
+				<ul class="nav-list">
+					<li class="item active"><a href="">数码城</a></li>
+					<li class="item"><a href="">天黑黑</a></li>
+					<li class="item"><a href="">团购</a></li>
+					<li class="item"><a href="">发现</a></li>
+					<li class="item"><a href="">二手特卖</a></li>
+					<li class="item"><a href="">名品会</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	
+	<!-- 页面划分三部分，导航，规格，介绍 -->
+	<!-- 导航部分 -->
+	<div class="position public-container">
+		<a href="" class="strong">首页</a>
+		<span class="strong">&nbsp;&gt;&nbsp;</span>
+		<a href="">平板电脑</a>
+		<span>&nbsp;&gt;&nbsp;</span>
+		<a href="">平板电脑</a>
+		<span>&nbsp;&gt;&nbsp;</span>
+		<a href="">Apple 苹果</a>
+		<span>&nbsp;&gt;&nbsp;</span>
+		<i>MD531CH/A</i>
+	</div>
+	<!-- 规格部分-->
+	<div class="format public-container clearfloat">
+		<!-- 左边图片展示 -->
+		<div class="img-show">
+			<img src="img/introduction-format-1.jpg" class="big"/>
+			<ul class="img-list">
+				<li class="active"><a href=""><img src="img/introduction-format-small-1.jpg" class="small"/></a></li>
+				<li><a href=""><img src="img/introduction-format-small-2.jpg" class="small"/></a></li>
+				<li><a href=""><img src="img/introduction-format-small-3.jpg" class="small"/></a></li>
+				<li><a href=""><img src="img/introduction-format-small-4.jpg" class="small"/></a></li>
+				<li><a href=""><img src="img/introduction-format-small-5.jpg" class="small"/></a></li>
+			</ul>
+		</div>
+		<!-- 右边商品规格 -->
+		<div class="format-deta">
+			<h3>全网底价 Apple 苹果 iPad mini 16G wifi版 平板电脑 前白后银 MD531CH/A 银白两色生
+产批次不同混合发货</h3>
+			<!-- 每一行为一个块 -->
+			<div class="details-col">
+				<div class="col-title" style="line-height: 23px;">慕课价</div>
+				<div class="col-content"><span class="price">&yen;1999.00</span></div>
+			</div>
+			<div class="details-col">
+				<div class="col-title" style="line-height: 18px;">优惠</div>
+				<i class="redemption">满换购</i>
+				<span>购ipad加价优惠够配件或USB充电插座</span>
+			</div>
+			<div class="details-col gray">
+				<div class="col-title" style="line-height: 19px;">送到</div>
+				<select>
+					<option value="">海淀区五环内</option>
+					<option value="">海淀区四环内</option>
+				</select>
+				<span>有货，可当日出货</span>
+			</div>
+			<div class="details-col gray">
+				<div class="col-title" style="line-height: 34px;">选择颜色</div>
+				<div class="col-content">
+					<span class="colorB">白色</span>
+					<span class="colorB">黑色</span>
+					<span class="colorB">灰色</span>
+				</div>
+			</div>
+			<div class="details-col gray">
+				<div class="col-title" style="line-height: 62px;">选择规格</div>
+				<div class="col-content">
+					<span class="colorS">WIFI 16G</span>
+					<span class="colorS">WIFI 64G</span>
+					<span class="colorS">WIFI 32G</span>
+					<span class="colorS">WIFI Cellular 32G</span>
+					<span class="colorS">WIFI Cellular 64G</span>
+					<span class="colorS">WIFI Cellular 16G</span>
+				</div>
+			</div>
+			<div class="details-col gray clearfloat">
+				<div class="col-title" style="line-height: 34px;">数量</div>
+				<button>-</button><input type="text" value="1"/><button>+</button>
+				<span class="restricted">限购<i>9</i>件</span>
+			</div>
+			<div class="details-col">
+				<div class="col-title">已选择</div>
+				<span class="choose">“白色|WIFI 16G”</span>
+			</div>
+			<div class="details-col clearfloat">
+				<img src="img/add-cart.jpg" />
+				<span class="line"></span>
+				<img src="img/buy-now.jpg" />
+			</div>
+			<div class="details-col">
+				<div class="notice">注意：此商品可提供普通发票，不提供增值税发票。</div>
+			</div>
+		</div>
+	</div>
+	<!-- 介绍部分-->
+	<div class="introduction public-container clearfloat">
+		<!-- 左右两部分 -->
+		<div class="introduction-col">
+			<div class="with-price">
+				<h4>同价位</h4>
+				<div class="with-price-col">
+					<img src="img/with-price-1.jpg" />
+					<p>Samsung 三星 GALAXY Tab 3 8.0 WLAN版本 T310平板电话</p>
+					<div class="price">&yen;3588.00</div>
+				</div>
+				<div class="with-price-col">
+					<img src="img/with-price-2.jpg" />
+					<p>Samsung 三星 GALAXY Tab 3 8.0 WLAN版本 T310平板电话</p>
+					<div class="price">&yen;3588.00</div>
+				</div>
+				<div class="with-price-col">
+					<img src="img/with-price-3.jpg" />
+					<p>Samsung 三星 GALAXY Tab 3 8.0 WLAN版本 T310平板电话</p>
+					<div class="price">&yen;3588.00</div>
+				</div>
+				<div class="with-price-col">
+					<img src="img/with-price-4.jpg" />
+					<p>Samsung 三星 GALAXY Tab 3 8.0 WLAN版本 T310平板电话</p>
+					<div class="price">&yen;3588.00</div>
+				</div>
+			</div>
+			<div class="with-price">
+				<h4>看了最终买</h4>
+				<div class="with-price-col">
+					<img src="img/with-price-5.jpg" />
+					<p>Apple 苹果 iPaad mini配备 Retina 显示屏 ME280CH/A</p>
+					<div class="price">&yen;3588.00</div>
+				</div>
+				<div class="with-price-col">
+					<img src="img/with-price-6.jpg" />
+					<p>某某品牌 配备 Retina 显示屏 IPS</p>
+					<div class="price">&yen;3588.00</div>
+				</div>
+				<div class="with-price-col">
+					<img src="img/with-price-7.jpg" />
+					<p>某某品牌 配备 Retina 显示屏 IPS</p>
+					<div class="price">&yen;3588.00</div>
+				</div>
+			</div>
+		</div>
+		<!-- 右边介绍列表 -->
+		<div class="introduction-list">
+			<!-- 上面详细介绍 -->
+			<div class="list-details">
+				<ul class="details-title">
+					<li class="active"><span class="product"></span><a href="">产品介绍</a></li>
+					<li><span class="comment"></span><a href="">商品评价(18782)</a></li>
+				</ul>
+				<img class="publicity" src="img/list-details-publicity.jpg" />
+				<div class="list-details-col clearfloat">
+					<h3>强烈推荐</h3><h4>货比三家，还选</h4>
+					<p>现在就是买mini的好时候！换代清仓直降，但苹果品质不变！A5双核，内置Lightning闪电接口，正反可插，方便人性。小身材，炫丽的7.9英寸显示屏，7.2mm的厚度，薄如铅笔。女生包包随身携带更时尚！facetime视频通话，与密友24小时畅聊不断线。微信倾力打造，你的智能助理。苹果的牌子就不用我说了，1111补仓，存货不多哦！</p>
+				</div>
+				<div class="list-details-col clearfloat">
+					<h3>精美图片</h3><h4>&nbsp;</h4>
+					<p>现在就是买mini的好时候！换代清仓直降，但苹果品质不变！A5双核，内置Lightning闪电接口，正反可插，方便人性。小身材，炫丽的7.9英寸显示屏，7.2mm的厚度，薄如铅笔。女生包包随身携带更时尚！facetime视频通话，与密友24小时畅聊不断线。微信倾力打造，你的智能助理。苹果的牌子就不用我说了，1111补仓，存货不多哦！</p>
+				</div>
+				<img class="details" src="img/list-details-details.jpg" />
+			</div>
+			<!-- 下面商品评价 -->
+			<div class="list-comment">
+				<h3>商品评价</h3>
+				<div class="score-box clearfloat">
+					<div class="score-number"><span>4.7</span>分</div>
+					<ul class="score-speed">
+						<li>非常不满意</li>
+						<li>不满意</li>
+						<li>一般</li>
+						<li>满意</li>
+						<li>非常满意</li>
+						<span class="score-tag">4.7<i></i></span>
+					</ul>	
+					<div class="score-people">共18939位慕课网友参与评分</div>
+				</div>				
+				<div class="comment-tag">
+					<ul class="comment-degree">
+						<li class="active"><a href="">全部</a></li>
+						<li><a href="">满意</a></li>
+						<li><a href="">一般</a></li>
+						<li><a href="">不满意</a></li>
+					</ul>
+					<div class="comment-sort">
+						<a href="">时间排序</a><a href="">推荐排序</a>
+					</div>
+				</div>
+				<div class="comment-content clearfloat">
+					<div class="comment-col">
+						<div class="user-head">
+							<img src="img/user-head-1.jpg" />
+							<span>61***42</span>
+							<p>金色会员</p>
+						</div>
+						<div class="user-comment">
+							<span class="comment-score"><i></i><i></i><i></i><i></i><i></i>&nbsp;&nbsp;5分 满意</span>
+							<p>挺不错的，信赖慕课</p>
+							<a href="">踩(0)</a><a href="">顶(0)</a>
+						</div>
+						<div class="comment-time">2014-03-07 17:41:44</div>
+					</div>
+					<div class="comment-col">
+						<div class="user-head">
+							<img src="img/user-head-2.jpg" />
+							<span>88***22</span>
+							<p>铜色会员</p>
+						</div>
+						<div class="user-comment">
+							<span class="comment-score"><i></i><i></i><i></i><i></i><i></i>&nbsp;&nbsp;5分 满意</span>
+							<p>挺不错的，信赖慕课</p>
+							<a href="">踩(0)</a><a href="">顶(0)</a>
+						</div>
+						<div class="comment-time">2014-03-07 17:41:44</div>
+					</div>
+					<!-- 分页按钮 -->
+					<ul class="page-number">
+						<li><a href="">&lt;上一页</a></li>
+						<li><a href="">1</a></li>
+						<li><a href="">2</a></li>
+						<li><a href="">3</a></li>
+						<li><a href="">4</a></li>
+						<li><a href="">5</a></li>
+						<span class="more">...</span>
+						<li><a href="">1879</a></li>
+						<li><a href="">下一页&gt;</a></li>
+						<span>到第<input type="text" value="1"/>页</span>
+						<button>确定</button>
+					</ul>
+				</div>
+			</div>
+			<!-- 最下面的咨询 -->
+			<div class="list-advisory clearfloat">
+				<div class="advisory-title clearfloat">
+					<h4>全部咨询(705)</h4>
+					<span class="post-advisory"><a href="">发表咨询</a></span>
+				</div>
+				<div class="advisory-prompt">提示:因厂家更改产品包装、产地或者更换随机附件等没有任何提前通知，且每位咨询者购买情况、提问时间等不同，为此以下回复信息仅供参考！若由此给您带来不便请多多谅解，谢谢！</div>
+				<div class="advisory-col clearfloat">
+					<div class="advisory-col-head">
+						<img src="img/advisory-col-head-1.jpg" />
+						<span>12***20</span>
+						<p>土星会员</p>
+					</div>
+					<div class="advisory-col--time">2014-04-08 11:23:14</div>
+					<div class="advisory-col-deta">
+						<span class="details">[商品咨询]</span>
+						<p>还能在便宜点么？</p>
+						<span class="reply">慕课网回复<i>：您好，现在已经是活动价格了</i></span>
+					</div>	
+				</div>
+				<div class="advisory-col clearfloat">
+					<div class="advisory-col-head">
+						<img src="img/advisory-col-head-1.jpg" />
+						<span>12***20</span>
+						<p>土星会员</p>
+					</div>
+					<div class="advisory-col--time">2014-04-08 11:23:14</div>
+					<div class="advisory-col-deta">
+						<span class="details">[商品咨询]</span>
+						<p>还能在便宜点么？</p>
+						<span class="reply">慕课网回复<i>：您好，现在已经是活动价格了</i></span>
+					</div>	
+				</div>
+				<!-- 分页按钮 -->
+				<ul class="page-number">
+					<li><a href="">&lt;上一页</a></li>
+					<li><a href="">1</a></li>
+					<li><a href="">2</a></li>
+					<span>到第<input type="text" value="1"/>页</span>
+					<button>确定</button>
+				</ul>
+			</div>
+		</div>	
+	</div>
+	
+	<!-- 公共页脚部分 -->
+	<div class="public-footer">
+		<p><a href="">慕课简介</a>|<a href="">慕课公告</a>|<a href="">招纳贤士</a>|<a href="">联系我们</a>|客服热线：400-675-1234</p>
+		<p>Copyright&nbsp;&copy;&nbsp;2006 - 2014&nbsp;慕课版权所有&nbsp;&nbsp;&nbsp;京ICP备09037834号&nbsp;&nbsp;&nbsp;京ICP证B1034-8373号&nbsp;&nbsp;&nbsp;某市公安局XX分局备案编号：123456789123</p>
+		<div class="footer-img">
+			<img src="img/footer-1.jpg" />
+			<img src="img/footer-1.jpg" />
+			<img src="img/footer-1.jpg" />
+			<img src="img/footer-1.jpg" />
+		</div>
+	</div>
+</body>
+</html>

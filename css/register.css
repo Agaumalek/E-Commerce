@@ -1,0 +1,63 @@
+﻿/* 头部分没有变化的地方样式依然在comment.css中 */
+/* LOGO部分 */
+.login-container{
+	width: 456px;
+	margin: 0 auto;
+}
+.login-container p{
+	float: left;
+	font: 22px/84px '微软雅黑';
+	color: #fff;
+	padding-left: 10px;
+	margin-left: 20px;
+}
+.register-table{
+	width: 631px;
+	border: 1px solid #e1e1e1;
+	margin: 0 auto 150px;
+	padding-top: 68px;
+}
+.register-table span{
+	display: inline-block;
+	width: 189px;
+	height: 38px;
+	text-align: right;
+	line-height: 38px;
+}
+.register-table .user,.register-table .pass,.register-table .address{
+	width: 269px;
+	height: 36px;
+	border: 1px solid #ccc;
+	margin-bottom: 31px;
+}
+.register-table i{
+	color: #f00;
+	margin-right: 5px;
+}
+.register-table .user{
+	background: url("../img/login-user.png") right center no-repeat;
+}
+.register-table .pass{
+	background: url("../img/login-pass.png") right center no-repeat;
+}
+.register-table .protocol-col{
+	padding-left: 189px;
+	margin-top: 25px;
+}
+.register-table .protocol-col .protocol{
+	position: relative;
+	top: 3px;
+}
+.register-table .protocol-col a{
+	color: #005aa0;
+}
+.register-table  .submit{
+	width: 272px;
+	height: 38px;
+	border: none;
+	margin: 34px 0 55px 189px;
+	font-size: 16px;
+	color: #606060;
+	font-family: '微软雅黑';
+	background: url("../img/register-btn-bg.png") left top repeat-x;
+}
