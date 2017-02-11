@@ -17,4 +17,5 @@
 * introduction.html-introduction.css 详细页-产品介绍 https://yudaren007007.github.io/E-Commerce/introduction.html
 * evaluation.html-evaluation.css 详细页-商品评价 https://yudaren007007.github.io/E-Commerce/evaluation.html
 * settlement.html-settlement.css 购物车和结算页 https://yudaren007007.github.io/E-Commerce/settlement.html
+* login.html-login.css 登录页 https://yudaren007007.github.io/E-Commerce/login.html
 * register.html-register.css 注册页 https://yudaren007007.github.io/E-Commerce/register.html 
